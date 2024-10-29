@@ -1,4 +1,4 @@
-# This repository is to show practising Selenium by me.😉
+# This repository is to show the Selenium WebDriver4 practice .😉
 
 ## Learning is based on 3 courses from Udemy.
 - First Selenium Test 2-hour-course(finished),
