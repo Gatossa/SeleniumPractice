@@ -7,7 +7,7 @@
 
 ### Courses provide 44 hours of practising in total.
 
-**_ Courses include:_**
+** Courses include:**
  - Complete Python Programming Language,
  - Pytest,
  - Git&Github,
