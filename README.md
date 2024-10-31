@@ -13,8 +13,11 @@
  - Pytest,
  - Git&Github,
  - Jenkins,
+ - TestNG,
  - Selenium WebDriver 4 Automation,
  - Selenium 4 Grid,
+ - Java,
+ - Maven,
  - Chrome developer tools - (Chrome Devtools; Emulate GEO Locations, Capture Network Requests etc),
  - Docker & Video Recording Capabilities,
  - Selenium IDE & Parallel Test Execution.
