@@ -1,15 +1,13 @@
-package InteractionsAndWaits;
+package Interactions;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 public class FindingElements {
 
-    @Test
+    @Test(groups={"buttons"})
     public void clickingButtons() {
         WebDriver driver = new FirefoxDriver();
         driver.manage().window().maximize();
@@ -17,7 +15,7 @@ public class FindingElements {
         driver.findElement(By.id("btn_one")).click();
         //driver.findElement(By.cssSelector("button#btn_two")).click();
     }
-    @Test
+    @Test(groups={"forms"})
     public void sendingDataToForms()
     {
         WebDriver driver = new FirefoxDriver();

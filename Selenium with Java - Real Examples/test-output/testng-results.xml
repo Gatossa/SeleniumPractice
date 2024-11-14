@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T20:25:03 CET" name="Default Suite" finished-at="2024-11-14T20:25:07 CET" duration-ms="4392">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T20:25:03 CET" name="Selenium with Java - Real Examples" finished-at="2024-11-14T20:25:07 CET" duration-ms="4392">
+      <class name="Parametrisation.propertiesFile">
+        <test-method signature="sendingDataToForms()[pri:0, instance:Parametrisation.propertiesFile@6f15d60e]" started-at="2024-11-14T20:25:03 CET" name="sendingDataToForms" finished-at="2024-11-14T20:25:07 CET" duration-ms="4368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingDataToForms -->
+      </class> <!-- Parametrisation.propertiesFile -->
+    </test> <!-- Selenium with Java - Real Examples -->
+  </suite> <!-- Default Suite -->
+</testng-results>
