@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.Java</groupId>
-    <artifactId>SeleniumJavaRealExamples</artifactId>
+    <artifactId>SeleniumProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -17,10 +17,10 @@
         </dependency>
 
         <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.25.0</version>
-    </dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.25.0</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j2-impl</artifactId>
@@ -55,15 +55,12 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
-</dependencies>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
-      
-
 
 </project>

@@ -20,10 +20,9 @@ import org.testng.annotations.Test;
             driver.manage().window().setSize(new Dimension(1600, 900));
 
             driver.findElement(By.linkText("ACTIONS")).click();
-            driver.quit();
-
-
             //driver.quit();
+
+
         }
     }
 
