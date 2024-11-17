@@ -69,7 +69,7 @@ import org.testng.annotations.Test;
             shipping.getDeliveryMsgTextbox().sendKeys("Please leave my parcel under the stairs in case I am not at home.");
             shipping.getContinueDeliveryBtn().click();
             Thread.sleep(3000);
-           
+
             PaymentForm Payment = new PaymentForm(driver);
            Payment.getPayByCheckRadioBtn().click();
             Payment.getTermsConditionsCheckbox().click();
