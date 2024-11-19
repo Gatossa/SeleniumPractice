@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class BasePage {
-    public static WebDriver driver;
+    public  WebDriver driver;
     private String url;
     private Properties prop;
 
