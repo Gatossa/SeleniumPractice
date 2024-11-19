@@ -26,7 +26,7 @@ public class ScreenShots {
     public static void zdjecie(WebDriver zdjecietestu) throws IOException {
         File srcFile = ((TakesScreenshot) zdjecietestu).getScreenshotAs(OutputType.FILE);
 
-        File destFile = new File("src/test/java/Screenshots"
+        File destFile = new File("Screenshots"
                 + timestamp() + ".png");
 
         FileUtils.copyFile(srcFile, destFile);
