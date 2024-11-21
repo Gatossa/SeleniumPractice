@@ -2,8 +2,6 @@ package Waits;
 
 import BaseSetUp.base;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
@@ -35,11 +33,11 @@ public class WaitsExamples extends base {
         Wait<WebDriver> wait =
                 new FluentWait<>(driver)
                         .withTimeout(Duration.ofSeconds(5))
-                        .pollingEvery(Duration.ofMillis(300)) //checking every
                         .ignoring(NoSuchElementException.class);
 
         wait.until(ExpectedConditions.elementToBeClickable(By.linkText("MAKEUP"))).click();
-        wait.until(ExpectedConditions.urlContains("product/category&path=36"));
+        wait.until(ExpectedConditions.urlContains("product/category&pa\n" +
+                "                        .pollingEvery(Duration.ofMillis(300)) //checkingth=36"));
 
     }
 }
