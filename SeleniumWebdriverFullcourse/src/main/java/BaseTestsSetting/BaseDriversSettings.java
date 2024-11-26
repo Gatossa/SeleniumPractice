@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
+import java.util.Scanner;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
@@ -17,27 +18,37 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
+import static java.sql.DriverManager.getDriver;
+
 public class BaseDriversSettings {
 
     public WebDriver driver;
-    private String url;
+    private String url1;
+    private String url2;
+
 
 
     @BeforeTest
     public void setUp() throws IOException {
+
         Properties properties = new Properties();
         FileInputStream propFile = new FileInputStream(System.getProperty("user.dir")
                 + "/src/main/resources/config.properties");
         properties.load(propFile);
+
+        url1 = properties.getProperty("url1").trim();
+        url2=properties.getProperty("url2").trim();
         String browserTypes = properties.getProperty("browser").toLowerCase().trim();
+
 
         switch (browserTypes) {
             case "chrome":
                 ChromeOptions chromeOptions = new ChromeOptions();
-                driver = new ChromeDriver(chromeOptions);
+                chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 chromeOptions.setAcceptInsecureCerts(true);
                 chromeOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
+                driver = new ChromeDriver(chromeOptions);
                 break;
 
             case "firefox":
@@ -69,13 +80,28 @@ public class BaseDriversSettings {
 
     }
 
-
     @AfterTest
     public void tearDown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
-}
+    public String getUrl1() {
+        return url1;
+
+    }
+
+    public String getUrl2() {
+        return url2;
+
+    }
+
+
+    }
+
+
+
 
 
 
