@@ -20,7 +20,7 @@ import java.util.Properties;
 
 public class base {
     public WebDriver driver;
-    private String url;
+    public String url;
 
 
     @BeforeTest

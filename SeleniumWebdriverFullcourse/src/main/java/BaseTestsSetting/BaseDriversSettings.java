@@ -3,6 +3,8 @@ package BaseTestsSetting;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.Scanner;
 
@@ -27,7 +29,6 @@ public class BaseDriversSettings {
     private String url2;
 
 
-
     @BeforeTest
     public void setUp() throws IOException {
 
@@ -37,14 +38,14 @@ public class BaseDriversSettings {
         properties.load(propFile);
 
         url1 = properties.getProperty("url1").trim();
-        url2=properties.getProperty("url2").trim();
+        url2 = properties.getProperty("url2").trim();
         String browserTypes = properties.getProperty("browser").toLowerCase().trim();
 
 
         switch (browserTypes) {
             case "chrome":
                 ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+                //chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 chromeOptions.setAcceptInsecureCerts(true);
                 chromeOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
@@ -68,7 +69,8 @@ public class BaseDriversSettings {
                 ChromeOptions gridChromeOptions = new ChromeOptions();
                 gridChromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 gridChromeOptions.addArguments("start-maximized");
-                driver = new RemoteWebDriver(new URL("http://localhost:4444"), gridChromeOptions);
+                driver = new RemoteWebDriver(new URL("http://localhost:4444"),
+                        gridChromeOptions);
                 break;
 
 
@@ -83,7 +85,7 @@ public class BaseDriversSettings {
     @AfterTest
     public void tearDown() {
         if (driver != null) {
-            driver.quit();
+            //driver.quit();
         }
     }
 
@@ -98,7 +100,11 @@ public class BaseDriversSettings {
     }
 
 
+
+
     }
+
+
 
 
 
