@@ -21,11 +21,6 @@ public class JavaScriptExecutor extends BaseDriversSettings {
 
 
 
-
-
-
-
-
     }
 
 

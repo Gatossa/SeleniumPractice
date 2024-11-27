@@ -85,7 +85,7 @@ public class BaseDriversSettings {
     @AfterTest
     public void tearDown() {
         if (driver != null) {
-            //driver.quit();
+            driver.quit();
         }
     }
 

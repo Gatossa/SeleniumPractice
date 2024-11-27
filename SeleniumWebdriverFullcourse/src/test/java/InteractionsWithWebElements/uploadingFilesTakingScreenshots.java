@@ -50,7 +50,11 @@ public class uploadingFilesTakingScreenshots extends BaseDriversSettings {
     public String timestamp() {
         return new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
     }
-}
+
+
+    }
+
+
 
 
 
