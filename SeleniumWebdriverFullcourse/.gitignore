@@ -2,6 +2,7 @@ target/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/firstTest/**/target/
+test-output/*
 
 ### IntelliJ IDEA ###
 .idea/*
@@ -12,7 +13,7 @@ target/*
 *.iws
 *.iml
 *.ipr
-test-output/*
+
 
 ### Eclipse ###
 .apt_generated
