@@ -2,9 +2,9 @@
 
 ## Practising is based on 5 courses from Udemy.
 - First Selenium Test 2-hour-course(finished), 😀
-- Selenium WebDriver 4 with Java 11-hour-course, in progress...😰
+- Selenium WebDriver 4 with Java 11-hour-course(finished),😀
 - Selenium WebDriver with Java -Real Examples 22-hour-course(finished),😀
-- Selenium Webdriver full course 34-hour-course,
+- Selenium Webdriver full course 34-hour-course, in progress....
 - Selenium WebDriver 4 with Python course 32-hour-course(scheduled after finishing Selenium with Java courses). ⌛
 
 ### Courses provide 64 hours of practising in total.
