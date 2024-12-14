@@ -1,4 +1,4 @@
-package InteractionsWithWebElements;
+package Course.InteractionsWithWebElements;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;

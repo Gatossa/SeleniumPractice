@@ -27,6 +27,7 @@ public class BaseDriversSettings {
     public WebDriver driver;
     private String url1;
     private String url2;
+    private String url3;
 
 
     @BeforeTest
@@ -39,6 +40,7 @@ public class BaseDriversSettings {
 
         url1 = properties.getProperty("url1").trim();
         url2 = properties.getProperty("url2").trim();
+        url3 = properties.getProperty("url3").trim();
         String browserTypes = properties.getProperty("browser").toLowerCase().trim();
 
 
@@ -99,10 +101,13 @@ public class BaseDriversSettings {
 
     }
 
-
+    public String getUrl3() {
+        return url3;
 
 
     }
+
+}
 
 
 

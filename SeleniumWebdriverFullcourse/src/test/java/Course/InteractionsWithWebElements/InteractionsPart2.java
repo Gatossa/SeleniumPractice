@@ -1,13 +1,11 @@
-package InteractionsWithWebElements;
+package Course.InteractionsWithWebElements;
 
 import BaseTestsSetting.BaseDriversSettings;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import java.sql.Array;
 import java.util.ArrayList;
 
 public class InteractionsPart2 extends BaseDriversSettings {

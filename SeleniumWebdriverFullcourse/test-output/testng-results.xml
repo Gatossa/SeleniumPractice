@@ -6,20 +6,20 @@
     <groups>
     </groups>
     <test started-at="2024-11-26T20:12:32 CET" name="SeleniumWebdriverFullcourse" finished-at="2024-11-26T20:12:34 CET" duration-ms="1853">
-      <class name="InteractionsWithWebElements.InteractionsPart3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:32 CET" name="setUp" finished-at="2024-11-26T20:12:33 CET" duration-ms="1260" status="PASS">
+      <class name="Course.InteractionsWithWebElements.InteractionsPart3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Course.InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:32 CET" name="setUp" finished-at="2024-11-26T20:12:33 CET" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadingfFile()[pri:0, instance:InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:33 CET" name="uploadingfFile" finished-at="2024-11-26T20:12:34 CET" duration-ms="573" status="PASS">
+        <test-method signature="uploadingfFile()[pri:0, instance:Course.InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:33 CET" name="uploadingfFile" finished-at="2024-11-26T20:12:34 CET" duration-ms="573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadingfFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:34 CET" name="tearDown" finished-at="2024-11-26T20:12:34 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Course.InteractionsWithWebElements.InteractionsPart3@4690b489]" started-at="2024-11-26T20:12:34 CET" name="tearDown" finished-at="2024-11-26T20:12:34 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- InteractionsWithWebElements.InteractionsPart3 -->
+      </class> <!-- Course.InteractionsWithWebElements.InteractionsPart3 -->
     </test> <!-- SeleniumWebdriverFullcourse -->
   </suite> <!-- Default Suite -->
 </testng-results>

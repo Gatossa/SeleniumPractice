@@ -1,4 +1,4 @@
-package InteractionsWithWebElements;
+package Course.InteractionsWithWebElements;
 
 import BaseTestsSetting.BaseDriversSettings;
 import org.openqa.selenium.Alert;

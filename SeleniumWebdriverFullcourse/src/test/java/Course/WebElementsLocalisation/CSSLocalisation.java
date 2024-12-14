@@ -1,4 +1,4 @@
-package WebElementsLocalisation;
+package Course.WebElementsLocalisation;
 
 import BaseTestsSetting.BaseDriversSettings;
 import org.openqa.selenium.By;

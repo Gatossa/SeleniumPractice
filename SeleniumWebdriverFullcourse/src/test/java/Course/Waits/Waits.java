@@ -1,4 +1,4 @@
-package Waits;
+package Course.Waits;
 
 import BaseTestsSetting.BaseDriversSettings;
 import org.openqa.selenium.*;
