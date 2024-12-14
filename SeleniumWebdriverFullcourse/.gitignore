@@ -1,7 +1,12 @@
 target/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
+<<<<<<< HEAD
 !**/src/Course.firstTest/**/target/
+=======
+!**/src/firstTest/**/target/
+test-output/*
+>>>>>>> 40636a4f0fb5928dda57b4e362d3f9a509c2ca19
 
 ### IntelliJ IDEA ###
 .idea/*
@@ -12,7 +17,7 @@ target/*
 *.iws
 *.iml
 *.ipr
-test-output/*
+
 
 ### Eclipse ###
 .apt_generated
