@@ -8,15 +8,16 @@ public class ReservationPageObjects {
 
     public WebDriver driver;
 
+    public ReservationPageObjects(WebDriver driver) {
+        this.driver = driver;
+    }
+
     By cityField = By.cssSelector("div#select2-drop  .select2-input");
 
 
 
+    public WebElement getCityField() {return driver.findElement(cityField);
 
-
-
-    public WebElement getCityField() {
-        return driver.findElement(cityField);
     }
 
 
